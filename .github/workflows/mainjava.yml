@@ -1,0 +1,20 @@
+name: java-project
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+      - name: cloning the github
+        uses: actions/checkout@v7.0.0
+
+      - name: compile java
+        run: javac Test.java
+
+      - name: run java
+        run: java Test
+
+        
