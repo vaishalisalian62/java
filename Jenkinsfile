@@ -24,7 +24,7 @@ pipeline {
             from: '', 
             replyTo: '', 
             subject: 'Build success',
-            to: 'vaishalisalian97@gmil.com'
+            to: 'vaishalisalian97@gmail.com'
         }
         
         failure {
