@@ -33,7 +33,7 @@ pipeline {
             cc: '', 
             from: '', 
             replyTo: '', 
-            subject: 'Build failure',
+            subject: 'Build it failure',
             to: 'vaishalisalian97@gmail.com'
         }
     }
